@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulário</title>
+</head>
+
+<body>
+    <form action="/pagina-processa-dados-do-form" method="post">
+    <fieldset>
+        <legend> Dados Gerais</legend>
+        <label for="nome">Nome</label>
+        <input type="text" minlength="3" name="" id="nome"/>
+
+        <label for="data de nascimento">Data de nascimento</label>
+        <input type="text" name="" id="Data de Nascimento">
+
+        <label for="CPF"></label>
+        <input type="CPF" maxlength="" id="CPF">
+
+    </fieldset>
+    <fieldset>
+        <legend>Endereço</legend>
+        <label for="Tipo de Endereço">Tipo</label>
+        <select id="Endereço" id="">
+            <option value="">selecione</option>
+            <option value="Rua">Rua</option>
+            <OPtion>Estrada</OPtion>
+            <option value="Rodovia">Rodovia</option>
+            <option value="outros">outros</option>
+        </select>
+
+        <label for="Logradouro de Endereço">Tipo:</label>
+        <input type="" text="" id="Logradouro de Endereço">
+
+        <label for="Número de Endereço">N°:</label>
+        <input type="" text="" id="Número_Endereço">
+
+        <label for="Complemento de Endereço">Complemento:</label>
+        <input type="" text="" id="Complemento de Endereço">
+        <fieldset>
+            <legend>Fale Conosco</legend>
+
+            <label for="msg">Mensagem</label>
+            <textarea name="" id="msg" cols="30" rows="10"></textarea>
+        </fieldset>
+
+        <fieldset>
+            <button type="submit"> Enviar sua Mensagem</button>
+            <button type="submit"> Limpar formulário</button>
+
+        </fieldset>
+
+        </form>
+</body>
+</html>
